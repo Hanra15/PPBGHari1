@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KalkulatorActivity">
+
+    <TextView
+        android:id="@+id/title_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="30dip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="30dip"
+        android:fontFamily="cursive"
+        android:text="@string/calc_judul"
+
+        />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dip"
+        android:layout_marginBottom="5dip"
+        android:text="@string/angka1"
+
+
+        />
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/grey"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="15dip"
+        android:hint="masukan angka pertama"
+
+
+        />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dip"
+        android:layout_marginBottom="5dip"
+        android:text="@string/angka2"
+
+        />
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/grey"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="15dip"
+        android:hint="masukan angka kedua"
+
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:layout_marginBottom="30dip"
+        android:padding="20dip"
+
+        >
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textSize="25dip"
+            android:text="+"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+
+            />
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textSize="25dip"
+            android:text="-"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textSize="25dip"
+            android:text="x"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/btnBagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textSize="25dip"
+            android:text="/"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30dip"
+        android:text="0"
+        />
+
+</LinearLayout>

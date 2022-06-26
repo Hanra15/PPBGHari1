@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CekintentActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="24dip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Utama"
+        android:textStyle="bold"
+        android:layout_marginTop="13dip"
+        android:text="@string/check_judul" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="17dip"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="13dip"
+        android:text="@string/check_introteks" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="@string/check_1" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="@string/check_2" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="@string/check_3" />
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="@string/check_4" />
+
+    <Button
+        android:id="@+id/btnPilihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/utama2"
+        android:layout_margin="10dip"
+        android:textColor="@color/white"
+        android:text="@string/btn_submit" />
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PPBG Hari 1</string>
+    <string name="judul_utama">Android App</string>
+    <string name="version">versi 1.0.0</string>
+
+
+    <string name="judul_dashboard">DASHBOARD</string>
+    <string name="dash_cek_intent">Cek Fungsi Intent</string>
+    <string name="dash_checkbox">Fungsi CheckBox</string>
+    <string name="dash_radio">Fungsi Radio</string>
+    <string name="dash_about">Fungsi About</string>
+    <string name="dash_calc">KALKULATOR APP</string>
+    <string name="dash_bmi">HITUNG BMI</string>
+    <string name="dash_database">Database SQL</string>
+
+
+    <string name="intent_judul">HALAMAN CEK INTENT</string>
+
+    //Radio
+    <string name="radio_judul">HALAMAN RADIO BUTTON</string>
+    <string name="check_intro_radio">Daftar Smartphone :</string>
+    <string name="radio_1">Samsung</string>
+    <string name="radio_2">Iphone</string>
+    <string name="radio_3">One Plus</string>
+    <string name="radio_4">Xiaomi</string>
+
+
+    //About
+    <string name="about_Judul">HALAMAN ABOUT</string>
+
+    //Checkbox
+    <string name="check_judul">HALAMAN CHECKBOX</string>
+    <string name="check_introteks">Daftar Perusahaan Terkemuka :</string>
+    <string name="check_1">Google</string>
+    <string name="check_2">Tokopedia</string>
+    <string name="check_3">Amazon</string>
+    <string name="check_4">Microsoft</string>
+    <string name="btn_submit">Tampilkan Pilihan</string>
+
+    //Calculator
+    <string name="calc_judul">Kalkulator Sederhana</string>
+    <string name="angka1">Angka Pertama</string>
+    <string name="angka2">Angka Kedua</string>
+
+    //Login
+    <string name="login_title">Form Login</string>
+    <string name="btn_login">Login</string>
+
+    //Kalkulator BMI
+    <string name="BMI_judul">Hitung BMI</string>
+    <string name="berat">Berat Badan</string>
+    <string name="tinggi">Tinggi Badan</string>
+    <string name="keterangan">Anda tergolong BMI :</string>
+
+    //belajar database
+    <string name="database_judul">Database SQL</string>
+    <string name="btn_hasil">HASIL</string>
+
+</resources>

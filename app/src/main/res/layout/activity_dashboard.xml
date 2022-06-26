@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="24dip"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Utama"
+        android:textStyle="bold"
+        android:layout_marginTop="13dip"
+        android:text="@string/judul_dashboard" />
+
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/Utama"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+
+        android:text="@string/dash_cek_intent"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/Utama"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+
+        android:text="@string/dash_about"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/teal_200"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+
+        android:text="@string/dash_checkbox"/>
+
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/dash_radio"/>
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/dash_calc"
+        />
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/dash_bmi"
+        />
+    <Button
+        android:id="@+id/btnDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/dash_database"
+        />
+
+
+
+</LinearLayout>
